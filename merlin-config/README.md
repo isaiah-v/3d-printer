@@ -1,9 +1,9 @@
 # Merlin Firmware Config
-This configuation is based on the End-3 config for the BigTreeTech SKR Mini E3 3.0 controller board, provided by Merlin (https://github.com/MarlinFirmware/Configurations/tree/import-2.1.x/config/examples/Creality/Ender-3/BigTreeTech%20SKR%20Mini%20E3%203.0).
+This configuation is based on the End-3 config for the BigTreeTech SKR Mini E3 3.0 controller board, provided by Merlin [here](https://github.com/MarlinFirmware/Configurations/tree/import-2.1.x/config/examples/Creality/Ender-3/BigTreeTech%20SKR%20Mini%20E3%203.0).
 When updating my firmware, my approch is to:
  1) pull the latest configuration for the board (the ender-3 is the closest printer)
- 2) Identify the changes I made from the history
- 3) Apply those changes to the latest config
+ 2) Identify the changes I made from the change history
+ 3) Apply those changes to the latest configuration
  4) Build and update the firmware
 
 ## Config Changes
@@ -46,5 +46,5 @@ When updating my firmware, my approch is to:
  - Update -> FILAMENT_CHANGE_UNLOAD_LENGTH to 550
 
 ## Last Tested Commit
-Branch: bugfix-2.1.x (https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.1.x)
-Commit: 59e19898ce301af0bc870d61e34372fcda594aa5 (https://github.com/MarlinFirmware/Marlin/commit/59e19898ce301af0bc870d61e34372fcda594aa5)
+ - Branch: [bugfix-2.1.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.1.x)
+ - Commit: [59e19898ce301af0bc870d61e34372fcda594aa5](https://github.com/MarlinFirmware/Marlin/commit/59e19898ce301af0bc870d61e34372fcda594aa5)
